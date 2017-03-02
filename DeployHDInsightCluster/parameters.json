@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "clusterName": {
-            "value": "KringHDInsight"
+            "value": null
         },
         "clusterLoginUserName": {
-            "value": "erik"
+            "value": null
         },
         "clusterLoginPassword": {
             "value": null
@@ -24,7 +24,7 @@
             "value": 4
         },
         "sshUserName": {
-            "value": "erikssh"
+            "value": null
         },
         "sshPassword": {
             "value": null
