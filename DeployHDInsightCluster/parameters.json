@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "KringHDInsight"
+        },
+        "clusterLoginUserName": {
+            "value": "erik"
+        },
+        "clusterLoginPassword": {
+            "value": null
+        },
+        "location": {
+            "value": "southcentralus"
+        },
+        "clusterKind": {
+            "value": "HADOOP"
+        },
+        "clusterVersion": {
+            "value": "3.5"
+        },
+        "clusterWorkerNodeCount": {
+            "value": 4
+        },
+        "sshUserName": {
+            "value": "erikssh"
+        },
+        "sshPassword": {
+            "value": null
+        }
+    }
+}

@@ -26,9 +26,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Compile Include="Script.ps1" />
+    <Content Include="parameters.json" />
+    <Content Include="template.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AzureHDInsightDeploy.ps1" />
+    <Compile Include="deploy.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
